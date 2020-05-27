@@ -4,9 +4,10 @@ Sample for deploying a .NET Core containerized application in a Service Fabric c
 # How to run the sample
 
 ## Pre-Requisites
-- An Azure account
-- Powershell 
-- Az Module
+- Microsoft .NET Core 3.1
+- Azure subscription
+- Microsoft Az CLI
+- Powershell
 
 ## Creating the Azure Service Fabric Cluster
 - Clone this repository on your machine to a desired location (e.g. C:\samples\sfabdocker-sample)
