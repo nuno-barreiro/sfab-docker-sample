@@ -1,5 +1,5 @@
 
 # Ignore certificate files
-.pem
-.cer
-.pfx
+*.pem
+*.cer
+*.pfx
