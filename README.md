@@ -18,3 +18,6 @@ Sample for deploying a .NET Core containerized application in a Service Fabric c
 - Open a browser and go to the cluster management endpoint
 - Verify that everything is working correctly
 
+# Cleanup 
+- Open a powershell prompt with elevated permissions
+- Execute the `scripts\cleanup.ps1` script
