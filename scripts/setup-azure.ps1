@@ -17,8 +17,6 @@ az account set --subscription $subscriptionId
 
 az group create -l $location -n $resourceGroupName
 
-mkdir ..\certificates
-
 az sf cluster create -g $resourceGroupName -l $location `
     --certificate-output-folder ..\certificates --certificatePassword $certPassword --certificate-subject-name $certSubject `
     --cluster-name $clusterName --cluster-size $clusterSize --os UbuntuServer1904 `
